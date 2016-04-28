@@ -1,0 +1,28 @@
+{
+  "version": "0.0.1",
+  "description": "HTML Banners",
+  "main": "index.html",
+  "repository": "https://bitbucket.org/gerald_techiners/html5-banner-generator",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerald Isabelle",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-concurrent": "*",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "*",
+    "grunt-import": "*",
+    "grunt-includes": "*",
+    "grunt-newer": "*",
+    "grunt-tinypng": "^0.6.1"
+  },
+  "dependencies": {
+    "grunt-contrib-connect": "^0.9.0"
+  }
+}
