@@ -68,9 +68,9 @@ src/fixtures/banners/{demensions}/css/_overwrites.scss - Changes which affect a 
 
 # Advanced Settings
 
-If you want your banner directories to a different structure, you can achieve this by modifying the gruntfile.js and src/template/css/style.css
+If you want your banner directories to use a different structure, you can achieve this by modifying the gruntfile.js and src/template/css/style.css
 
-e.g you want the following strure
+e.g you want the following structure
 
     \urban-living
         \160x100
@@ -80,7 +80,7 @@ e.g you want the following strure
 
 ### gruntfile.js
 
-line 6 edit the "category" variable, make sure you include a '/' in the end, e.g
+In line 6, edit the "category" variable, making sure you include a '/' in the end, e.g
 
     category = 'urban-living/'
 
